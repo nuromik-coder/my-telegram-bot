@@ -4,7 +4,8 @@ from aiogram.filters import CommandStart
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 # ===== НАСТРОЙКИ (ЗАМЕНИТЕ НА СВОИ) =====
-BOT_TOKEN = "ВАШ_ТОКЕН_СЮДА"
+BOT_TOKEN = "import os
+BOT_TOKEN = os.environ.get("BOT_TOKEN")"
 ADMIN_ID = 123456789          # ← ваш Telegram ID
 SELLER_CONTACT = "@your_username"  # ← ваш юзернейм
 
