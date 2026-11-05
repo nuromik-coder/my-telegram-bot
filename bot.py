@@ -1,10 +1,10 @@
+import os
 import asyncio
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import CommandStart
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 # ===== НАСТРОЙКИ (ЗАМЕНИТЕ НА СВОИ) =====
-BOT_TOKEN = import os
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 ADMIN_ID = 1403518960          # ← ваш Telegram ID
 SELLER_CONTACT = "@SAHANU56"  # ← ваш юзернейм
