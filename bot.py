@@ -6,8 +6,8 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 # ===== НАСТРОЙКИ (ЗАМЕНИТЕ НА СВОИ) =====
 BOT_TOKEN = "import os
 BOT_TOKEN = os.environ.get("BOT_TOKEN")"
-ADMIN_ID = 123456789          # ← ваш Telegram ID
-SELLER_CONTACT = "@your_username"  # ← ваш юзернейм
+ADMIN_ID = 1403518960          # ← ваш Telegram ID
+SELLER_CONTACT = "@SAHANU56"  # ← ваш юзернейм
 
 # ===== БАЗА АККАУНТОВ =====
 ACCOUNTS = {
